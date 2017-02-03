@@ -1,55 +1,69 @@
 .mdl-layout__content {
-    width: 800px;
-    max-width: 90%;
-    margin: 0 auto;
+  width: 800px;
+  max-width: 90%;
+  margin: 0 auto;
 }
+
 .hidden {
-    display: none !important;
+  display: none !important;
 }
-input,button {
-    display: block;
+
+input,
+button {
+  display: block;
 }
+
 .mdl-data-table tbody tr {
-    cursor: pointer;
+  cursor: pointer;
 }
-#loginError{
-    color: red;
+
+#loginError {
+  color: red;
 }
+
 .deleteButton:hover {
-    color: red;
-    cursor: pointer;
+  color: red;
+  cursor: pointer;
 }
+
 .mdl-data-table {
-    margin: 0 auto;
+  margin: 0 auto;
 }
+
 input:-webkit-autofill {
-    -webkit-box-shadow: 0 0 0px 1000px white inset;
+  -webkit-box-shadow: 0 0 0px 1000px white inset;
 }
+
 #loading-container {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
+
 .mdl-navigation__link.selected {
-    font-weight: bold;
+  font-weight: bold;
 }
+
 .mdl-layout__drawer-button {
-    display: none !important;
+  display: none !important;
 }
+
 @media screen and (max-width: 1024px) {
-    .mdl-layout__drawer-button {
-        display: block !important;
-    }
+  .mdl-layout__drawer-button {
+    display: block !important;
+  }
 }
+
 .goBack {
-    display: block;
-    margin-top: 20px;
-    text-decoration: none;
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
 }
+
 .success {
-    color: #BADA55;
-    position: absolute;
-    right: 0;
-    bottom: -5px;
-    font-size: 14px;
-    visibility: hidden;
+  color: #BADA55;
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  font-size: 14px;
+  visibility: hidden;
 }
